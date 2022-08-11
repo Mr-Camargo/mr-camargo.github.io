@@ -1,6 +1,6 @@
 # hi
 
 User-agent: *
-Disallow: /404.html
+Disallow:
 
 Sitemap: https://camargou.dev/map.xml
