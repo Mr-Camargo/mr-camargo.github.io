@@ -1,0 +1,62 @@
+.expandableLine {
+    animation-delay: 1s;
+}
+
+#emailSection {
+    animation: rise 1s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    visibility: hidden;
+}
+
+#emailSectionContent {
+    background-color: #6b9776;
+    color: white;
+    padding: 10px 5% 10px 5%;
+    border-radius: 10px;
+}
+
+section div {
+    text-align: center;
+}
+
+#buttonDuplex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 500px) {
+    #buttonDuplex {
+        flex-direction: row;
+    }
+    a button {
+        margin-bottom: 0px;
+    }
+}
+
+.noscript {
+    color: rgb(196, 196, 196);
+    text-align: center;
+}
+
+a button {
+    background-color: #6b9776;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+a button:hover {
+    background-color: #E4EFF0;
+    color: #121212;
+}
+
+
