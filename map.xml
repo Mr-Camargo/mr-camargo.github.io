@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://camargou.dev/</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/about</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/work/</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/certifications/</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/contributions</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/contact</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/work/view/mirayoki</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/work/view/scratch</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/certifications/view/G22TSBKYRQBH</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/certifications/view/RKVVDDYRRFKH</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/media/certificates/G22TSBKYRQBH/G22TSBKYRQBH.pdf</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/media/certificates/RKVVDDYRRFKH/RKVVDDYRRFKH.pdf</loc>
+  <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
