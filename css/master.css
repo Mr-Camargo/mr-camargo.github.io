@@ -98,6 +98,13 @@ main {
     }
 }
 
+.riseSection {
+    animation: rise 1s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    visibility: hidden;
+}
+
 .goBack {
     background-color: #161d47;
     animation: goBack 2s forwards;

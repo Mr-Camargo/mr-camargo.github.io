@@ -56,14 +56,7 @@
     }
 }
 
-#whoAmI {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 2s;
-    visibility: hidden;
-}
-
-#whoAmIContent {
+#whoAmI .content {
     background-color: white;
     color: black;
     padding: 10px 5% 10px 5%;
@@ -116,28 +109,18 @@
     }
 }
 
-#whatIDo {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 2.5s;
-    visibility: hidden;
-}
-
-#whatIDoContent {
+#whatIDo .content {
     background-color: #6b9776;
     color: white;
     padding: 10px 5% 10px 5%;
     border-radius: 10px;
 }
 
-#whatDoI {
+#whatDoILike {
     background-color: #2177e5;
     color: white;
     padding: 10px 5% 10px 5%;
     border-radius: 10px;
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 3s;
     visibility: hidden;
 }
 
@@ -208,10 +191,6 @@ ul li {
     color: white;
     padding: 10px 5% 10px 5%;
     border-radius: 10px;
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 3.5s;
-    visibility: hidden;
 }
 
 #funFacts {
@@ -219,10 +198,6 @@ ul li {
     color: white;
     padding: 10px 5% 10px 5%;
     border-radius: 10px;
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 4s;
-    visibility: hidden;
 }
 
 #funFactsContent ul {

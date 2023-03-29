@@ -2,25 +2,44 @@
     animation-delay: 1s;
 }
 
-#emailSection {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 1.5s;
-    visibility: hidden;
+#linkedin .content {
+    background-color: #2c64bb;
+    color: white;
+    padding: 10px 5% 10px 5%;
+    border-radius: 10px;
 }
 
-#emailSectionContent {
+#linkedin .content button {
+    background-color: #2c64bb;
+}
+
+#twitter .content {
+    background-color: #4a98e9;
+    color: white;
+    padding: 10px 5% 10px 5%;
+    border-radius: 10px;
+}
+
+#twitter .content button {
+    background-color: #4a98e9;
+}
+
+#email .content {
     background-color: #6b9776;
     color: white;
     padding: 10px 5% 10px 5%;
     border-radius: 10px;
 }
 
+#email .content button {
+    background-color: #6b9776;
+}
+
 section div {
     text-align: center;
 }
 
-#buttonDuplex {
+.buttonDuplex {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +61,6 @@ section div {
 }
 
 a button {
-    background-color: #6b9776;
     color: white;
     border: none;
     border-radius: 10px;
@@ -55,7 +73,6 @@ a button {
 }
 
 a button:hover {
-    background-color: #E4EFF0;
     color: #121212;
 }
 

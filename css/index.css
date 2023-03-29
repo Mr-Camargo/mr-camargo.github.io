@@ -143,6 +143,10 @@ main {
     }
 }
 
+.riseSection {
+    animation-delay: 2s; !important
+}
+
 .duplex {
     display: flex;
     flex-direction: column;
@@ -176,10 +180,6 @@ main {
 
 
 #whereDiv {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 3.5s;
-    visibility: hidden;
     background-color: #233f5b;
     border-radius: 10px;
     padding: 25px 15px 25px 15px;
@@ -204,10 +204,6 @@ main {
 }
 
 #ageDiv {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 4s;
-    visibility: hidden;
     border-radius: 10px;
     background-color: #0a7784;
     padding: 25px 0px 25px 15px;
@@ -228,12 +224,6 @@ main {
     font-size: 90%;
 }
 
-#aboutDiv {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 4.5s;
-    visibility: hidden;
-}
 
 #aboutDivContent {
     background-color: #1569ab;
@@ -284,13 +274,6 @@ main {
     }
 }
 
-#technologiesDiv {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 5s;
-    visibility: hidden;
-}
-
 #technologiesDivContent {
     background-color: #f39f4c;
     color: white;
@@ -332,13 +315,6 @@ main {
     letter-spacing: 5px;
 }
 
-#workDiv {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 5.5s;
-    visibility: hidden;
-}
-
 #workDivContent {
     background-color: #d94d55;
     color: white;
@@ -352,12 +328,6 @@ main {
     margin-top: 0px;
 }
 
-#accomplishmentsDiv {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 6s;
-    visibility: hidden;
-}
 
 #accomplishmentsDivContent {
     background-color: #f3ed4c;
@@ -372,12 +342,6 @@ main {
     margin-top: 0px;
 }
 
-#contributionsDiv {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 6.5s;
-    visibility: hidden;
-}
 
 #contributionsDivContent {
     background-color: #3c4550;
@@ -391,12 +355,6 @@ main {
     margin-top: 0px;
 }
 
-#contactDiv {
-    animation: rise 1s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 7s;
-    visibility: hidden;
-}
 
 #contactDivContent {
     background-color: #343cd6;
