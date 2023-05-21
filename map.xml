@@ -61,6 +61,16 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://camargou.dev/certifications/view/FSPA/all-florida</loc>
+  <lastmod>2022-05-21T01:16:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/certifications/view/FSPA/honorable-mention</loc>
+  <lastmod>2022-05-21T01:16:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://camargou.dev/media/certificates/G22TSBKYRQBH/G22TSBKYRQBH.pdf</loc>
   <lastmod>2022-08-11T01:21:46+00:00</lastmod>
   <priority>0.51</priority>
@@ -68,6 +78,16 @@
 <url>
   <loc>https://camargou.dev/media/certificates/RKVVDDYRRFKH/RKVVDDYRRFKH.pdf</loc>
   <lastmod>2022-08-11T01:21:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/media/certificates/FSPA/all-florida/fspa-all-florida.pdf</loc>
+  <lastmod>2022-05-21T01:16:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://camargou.dev/media/certificates/FSPA/honorable-mention/fspa-honorable-mention.pdf</loc>
+  <lastmod>2022-05-21T01:16:29+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
