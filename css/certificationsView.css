@@ -24,6 +24,10 @@ main {
     .certBtns button {
         margin-right: 0px !important;
     }
+    h1 {
+        text-align: right;
+        margin-left: 10px;
+    }
 }
 
 .certImage img {

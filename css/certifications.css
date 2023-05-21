@@ -33,6 +33,14 @@
     margin-bottom: 1em;
 }
 
+@media screen and (max-width: 900px) {
+    .certificate .certImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .certificate a {
     text-decoration: none;
     color: inherit;
