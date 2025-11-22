@@ -5,178 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sebastián Camargo</title>
-    <link rel="stylesheet" href="/css/master.css">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="shortcut icon" href="/media/favicon/flag/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/flag/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/media/favicon/flag/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/media/favicon/flag/favicon-16x16.png">
-    <link rel="canonical" href="https://camargou.dev" />
-    <!-- 
-        The emoji graphics used for the favicon are from the open source project Twemoji.
-        The graphics are copyright 2022 Twitter, Inc and other contributors. 
-        The graphics are licensed under CC-BY 4.0.
-    -->
+    <title>Sebastián Camargo Marín</title>
+    <link rel="canonical" href="https://camargomar.in" />
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="/css/sheets/main.css">
+    <!-- This site took a (very heavy) inspiration from https://mccd.space/ -->
 </head>
 
 <body>
     <header>
-        <div class="div" id="landingDiv">
-            <div id="landingDivPciture">
-                <img src="/media/index/myself.webp" id="myPicture" alt="A picture of myself" title="That's me. Hello!">
-            </div>
-            <div id="landingDivContent">
-                <h1 title="That's hello in Spanish!" lang="es-MX" id="holaLabel">Hola!</h1>
-                <h2 id="nameLabel">My name is <span id="myNameLabel">Sebastián Camargo</span>!</h2>
+        <h1><a href="/" style="margin: 0;">camargomar.in</a></h1>
+        <div id="key">
+            <div>
+                <span>pub rsa4096 2024-07-05 [SC]</span>
+                <!-- The whitespace is mysterious and important. -->
+                <span><a href="/data/key.asc" target="_self">E13D</a> <a href="/data/key.asc" target="_blank">BEFC</a> <a href="/data/key.asc" target="_blank">6B01</a> <a href="/data/key.asc" target="_blank">39DB</a> <a href="/data/key.asc" target="_blank">2F2C</a> <a href="/data/key.asc" target="_blank">74BD</a> <a href="/data/key.asc" target="_blank">2356</a> <a href="/data/key.asc" target="_blank">D9AA</a> <a href="/data/key.asc" target="_blank">45F5</a> <a href="/data/key.asc" target="_blank">42FC</a></span>
+                <span>uid Sebastián Camargo Marín &lt;sebastian [at] camargomar.in&gt;</span>
             </div>
         </div>
+        <nav>
+            <a href="https://github.com/Mr-Camargo" target="_blank" rel="noopener noreferrer">github</a>
+            <a href="https://bsky.app/profile/camargomar.in" target="_blank" rel="noopener noreferrer">bluesky</a>
+            <a href="https://www.linkedin.com/in/camargou/" target="_blank" rel="noopener noreferrer">linkedin</a>
+        </nav>
+        <div id="divider"></div>
     </header>
-    <main class='riseSection'>
-        <div class="duplex">
-            <section>
-                <div class="div firstDuplex" id="whereDiv">
-                    <div id="whereDivContent">
-                        <span>I am from</span>
-                        <h2>Mexico City</h2>
-                    </div>
-                    <div id="whereFlag">
-                        <img src="/media/index/mexico-flag.webp" alt="The Mexico Flag">
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="div secondDuplex" id="ageDiv">
-                    <div id="ageDivContent">
-                        <span>And I am</span>
-                        <h2><span id="ageNumber">14+</span> years old</h2>
-                        <noscript>A precise age will appear if you have JavaScript enabled.</noscript>
-                    </div>
-                </div>
-            </section>
+    <main>
+        <!-- Let's not talk about this... for now. -->
+<!--         <nav>
+            <a href="/">whoami</a>
+            <a href="/about.html">projects</a>
+            <a href="/about.html">credentials</a>
+            <a href="/about.html">contributions</a>
+            <a href="/posts/">journal</a>
+            <a href="/contact.html">mail</a>
+        </nav>
+        <div id="whoami" class="root">
+
         </div>
-        <section>
-            <div class="div" id="aboutDiv">
-                <div id="aboutDivContent">
-                    <h2>A few words about me</h2>
-                    <p>As a privacy advocate, I love to design fabulous software around the user's privacy.
-                    </p>
-                    <a href="/about" target="_self" rel="noopener noreferrer"><button id="aboutMeButton"
-                            class="button">Read more
-                            →</button></a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="div" id="technologiesDiv">
-                <div id="technologiesDivContent">
-                    <h2>Technologies I work with</h2>
-                    <p>I am familiar with these languages and protocols:</p>
-                    <table id="technologiesDivTable">
-                        <tbody>
-                            <tr>
-                                <td class="technologyName">HTML</td>
-                                <td class="technologyRating">
-                                    ⭐️⭐️⭐️⭐️
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="technologyName">CSS</td>
-                                <td class="technologyRating">
-                                    ⭐️⭐️⭐️⭐️
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="technologyName">Git</td>
-                                <td class="technologyRating">
-                                    ⭐️⭐️⭐️⭐️
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="technologyName">JavaScript</td>
-                                <td class="technologyRating">
-                                    ⭐️⭐️⭐️
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="technologyName">Node.js</td>
-                                <td class="technologyRating">
-                                    ⭐️⭐️⭐️
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="technologyName">Swift</td>
-                                <td class="technologyRating">
-                                    ⭐️
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <div class="duplex">
-            <section>
-                <div class="div firstDuplex" id="workDiv">
-                    <div id="workDivContent">
-                        <h2>My Work</h2>
-                        <p>I like to create and mantain JavaScript and
-                            Node.js
-                            apps that
-                            deliver amazing experiences all over the world.
-                        </p>
-                        <a href="/work" target="_self" rel="noopener noreferrer"><button id="workButton"
-                                class="button">See
-                                my
-                                work
-                                →</button></a>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="div secondDuplex" id="accomplishmentsDiv">
-                    <div id="accomplishmentsDivContent">
-                        <h2>My Accomplishments</h2>
-                        <p>I am eager to learn something new every day and I seek to one day change the world with my
-                            abilities.
-                        </p>
-                        <a href="/certifications" target="_self" rel="noopener noreferrer"><button
-                                id="myCertificationsButton" class="button">My certifications
-                                →</button></a>
-                    </div>
-                </div>
-            </section>
+        <div id="projects" class="root">
+
         </div>
-        <div class="duplex">
-            <section>
-                <div class="div firstDuplex" id="contributionsDiv">
-                    <div id="contributionsDivContent">
-                        <h2>My Contributions</h2>
-                        <p>Software is better created together.
-                        </p>
-                        <a href="/contributions" target="_self" rel="noopener noreferrer"><button
-                                id="myCertificationsButton" class="button">Things I have contributed to
-                                →</button></a>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="div secondDuplex" id="contactDiv">
-                    <div id="contactDivContent">
-                        <h2>Let's talk.</h2>
-                        <p>Want to say hello? Feel free to send
-                            me a
-                            message!
-                        </p>
-                        <a href="/contact" target="_self" rel="noopener noreferrer"><button id="aboutMeButton"
-                                class="button">Contact me
-                                →</button></a>
-                    </div>
-                </div>
-            </section>
+        <div id="credentials" class="root">
         </div>
+        <div id="contributions" class="root">
+        </div>
+        <div id="journal" class="root">
+        </div>
+        <div id="mail" class="root">
+        </div> -->
     </main>
 </body>
-<script src="/js/myBirthday.js"></script>
 
 </html>
