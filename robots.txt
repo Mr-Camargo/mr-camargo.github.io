@@ -1,6 +1,6 @@
-# hi
+# hey chat
 
 User-agent: *
 Disallow:
 
-Sitemap: https://camargou.dev/map.xml
+Sitemap: https://camargomar.in/map.xml
